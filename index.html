@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Ping Pong</title>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+      <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+      <link rel="stylesheet" href="style.css" type="text/css">
+
+      <style type="text/css">
+/*        * {
+          border: 1px solid red;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+        }*/
+      </style>
+      <link href='http://fonts.googleapis.com/css?family=Passion+One:400,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+      <div class="container">
+        <div class="row clearfix">
+          <div class="col-xs-1 column">
+          </div>
+          <div class="col-xs-4 column">
+          </div>
+          <div class="col-xs-1 column">
+            <p class="setlabel">
+              SET
+            </p>
+            <p class="setscore" id="player1set">
+              <span>0</span>
+            </p>
+          </div>
+          <div class="col-xs-1 column">
+            <p class="setlabel">
+              SET
+            </p>    
+            <p class="setscore" id="player2set">
+              <span>0</span>
+            </p>
+          </div>
+          <div class="col-xs-4 column">
+          </div>
+          <div class="col-xs-1 column">
+          </div>
+        </div>
+        
+
+        <div class="row clearfix">
+          <div class="col-xs-1 column"></div>
+          <div class="col-xs-5 column">
+          </div>
+          <div class="col-xs-5 column">
+
+          </div>
+          <div class="col-xs-1 column"></div>
+        </div>
+
+
+
+        <div class="row clearfix">
+          <div class="col-xs-1 column">
+          </div>
+          <div class="col-xs-5 column playerCard">
+            <p class="changeScore leftScoreChange" id="increasePlayer1">
+              <span>+</span>
+            </p>
+            <p class="scoreCard player1block" id="player_1_score">
+              <span>0</span>
+            </p>
+            <p class="changeScore leftScoreChange" id="decreasePlayer1">
+              <span>-</span>
+            </p>
+          </div>
+          <div class="col-xs-5 column playerCard">
+            <p class="changeScore player2ScoreChange" id="increasePlayer2">
+              <span>+</span>
+            </p>
+            <p class="scoreCard player2block" id="player_2_score">
+              <span>0</span>
+            </p>
+            <p class="changeScore player2ScoreChange" id="decreasePlayer2">
+              <span>-</span>
+            </p>
+          </div>
+          <div class="col-xs-1 column navLinks">
+            <a href="#" class="navText" id="newGame">New Game</a>
+            <a href="#" class="navText" id="restartGame">Restart</a>
+            <a href="#">
+              <img src="img/user.png" alt="Profile" class="navLinks" width="45em" height="45em">
+            </a></br>
+            <a href="#">
+              <img src="img/settings.png" alt="Settings" class="navLinks" width="45em" height="45em">
+            </a></br>
+            <a href="#">
+              <img src="img/music.png" alt="Audio" class="navLinks" width="45em" height="45em">
+            </a>
+          </div>
+        </div>
+
+
+
+        <div class="row clearfix">
+          <div class="col-xs-1 column"></div>
+          <div class="col-xs-5 column">
+            <p class="player" id="player1">
+              Player 1
+            </p>
+          </div>
+          <div class="col-xs-5 column">
+            <p class="player" id="player2">
+              Player 2
+            </p>
+          </div>
+          <div class="col-xs-1 column"></div>
+        </div>
+
+        <div class="row clearfix">
+          <div class="col-xs-12 column">
+            <h3 class="game-title">
+              Ping Pong Matchup
+            </h3>
+          </div>
+        </div>
+
+      <script src="https://code.jquery.com/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+    </body>
+  </html>
